@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:0;
+    background: black;
+}
+body,.html{
+    height:100vh;
+    width:100vw;
+}
+.escrita{
+    height:48px;
+    width: 106.05px;
+    position:absolute;
+    left: 1px;
+
+}
+
+.globo{
+    position:absolute;
+    left: 88vw;
+    z-index:2;
+}
+
+.garrafa{
+    position:absolute;
+    top: 130px;
+    left: 170px;
+    height: 336px;
+    width:136px;
+}
+.garras{
+    position:absolute;
+    z-index: 0;
+    height:100vh;
+    width:100vw;
+    opacity: 0;
+}
+.nome{
+    position:absolute;
+    top: 50%;
+    color:white;
+    font-size:10px
+
+}
