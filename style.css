@@ -2,24 +2,27 @@
     margin: 0;
     padding:0;
     box-sizing:0;
-    background: black;
+    
 }
 body,.html{
     height:100vh;
     width:100vw;
+    background: black;
 }
 .escrita{
     height:48px;
     width: 106.05px;
     position:absolute;
-    left: 1px;
+    left: 2vw;
+    top:1vh;
 
 }
 
 .globo{
     position:absolute;
-    left: 88vw;
+    left: 81vw;
     z-index:2;
+    top:2.5vh;
 }
 
 .garrafa{
@@ -29,17 +32,76 @@ body,.html{
     height: 336px;
     width:136px;
 }
-.garras{
-    position:absolute;
-    z-index: 0;
-    height:100vh;
-    width:100vw;
-    opacity: 0;
-}
+
+
 .nome{
     position:absolute;
-    top: 50%;
+    top: 30%;
     color:white;
-    font-size:10px
+    font-size:30px;
+    font-weight: 100;
+    left:4vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
+.nome1{
+    position:absolute;
+    top: 55%;
+    color: #CCCCCC;
+    font-size: 13px;
+    font-weight: 1000;
+    left:4vw;
+}
+.verde{
+    position:absolute;
+    color:rgb(28, 218, 28);
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.globobr{
+    display:flex;
+    color:white;
+}
+.BR{
+    position:absolute;
+    left:90vw;
+    top: 3vh;
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-weight: 1;
+}
+
+.setas{
+    display:flex;
+    position:absolute;
+    top:89vh;
+    left: 6vw;
+
+}
+
+.direita{
+    position:absolute;
+    left:80vw;
+    height: 4vh;
+}
+.esquerda{
+    position:absolute;
+    height: 4vh;
+}
+footer{
+    position: absolute;
+    color: #AAAAAA;
+    top: 95vh;
+    left:40%;
+    font-size:10px
+}
+
+@media (min-width: 1024px){
+    .escrita{
+    height:48px;
+    width: 106.05px;
+    position:absolute;
+    left: 4vw;
+    top:2vh;
+    }
+    
 }
