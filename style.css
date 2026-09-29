@@ -15,9 +15,10 @@ body,.html{
     position:absolute;
     left: 2vw;
     top:1vh;
-
 }
-
+.garras{
+    opacity: 0;
+}
 .globo{
     position:absolute;
     left: 81vw;
@@ -94,6 +95,13 @@ footer{
     left:40%;
     font-size:10px
 }
+.promo{
+    opacity:0;
+    position:absolute;
+    left:44vw;
+    top:5vh;
+    color:white;
+}
 
 @media (min-width: 1024px){
     .escrita{
@@ -103,5 +111,46 @@ footer{
     left: 4vw;
     top:2vh;
     }
+    .garras{
+        opacity: 5%;
+        position:absolute;
+        left:30vw;
+        top:7vh;
+    }
+    .promo{
+        z-index: 60;
+        opacity:100%;
+        position:absolute;
+        top:5vh;
+        left: 44vw;
+    }
+    .setas{
+        display:flex;
+        position:absolute;
+        top:89vh;
+        left: 28.5vw;
     
+    }
+    
+    .direita{
+        position:absolute;
+        left:40vw;
+        height: 4vh;
+    }
+    .esquerda{
+        position:absolute;
+        height: 4vh;
+    }
+    .garrafa{
+        height:39.5vh;
+        left:43vw;
+        top:33vh
+    }
+    .nome{
+        top:18vh;
+        font-size:9vh
+    }
+    .nome1{
+        font-size:2vh
+    }
 }
